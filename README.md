@@ -9,6 +9,8 @@ Check this example of how this optimization will save you time by removing usele
 
 ![Optimization example](https://raw.githubusercontent.com/aporto/pcb_drilling_optimizer/master/drill_optimize.jpg)
 
+The yellow lines on the image above represent the travel of the CNC tool between each hole. The lower the yellow lines, the faster the CNC job will finish.
+
 This script supports two algorithms for optimization, by solving the Traveling Salesman Problem:
 * "fast" algorithm takes just a few seconds to create a good sequence of the holes
 * "opt-2" algorithm may take several minutes to create a better sequence
